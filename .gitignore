@@ -1,0 +1,47 @@
+/logs
+*.log
+out
+bin/**
+bin/
+chatApplication/Benchmarking-ChatApp-Protokolldatei
+
+#Eclipse
+#.classpath
+#.project
+.settings/
+
+#IntelliJ
+.idea/
+*.iml
+*.iws
+
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# End of https://www.gitignore.io/api/maven
+#Misc
+tmp/**
+tmp/**/*
+*.swp
+.loadpath
+.metadata
+.launch
+.buildpath
+
+
+
+#Mac OS
+.DS_Store
+/bin
